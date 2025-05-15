@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="cal.js"></script>
+    <style>
+        #main {
+
+            margin-top: 13%;
+            margin-left: 550px;
+            border-style: none;
+        }
+
+        #inp {
+            width: 31%;
+            height: 50px;
+            border: 3px dotted black;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px grey;
+            margin-bottom: 20px;
+            font-size: 20px;
+            color: blue;
+        }
+
+        .btn {
+            margin: 5px;
+            width: 65px;
+            height: 40px;
+            border-radius: 50px;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+
+        .eqaul {
+            margin: 5px;
+            width: 65px;
+            height: 40px;
+            border-radius: 50px;
+            font-size: 20px;
+            font-weight: bolder;
+            background-color: #ed6825;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="main">
+
+        <div id="inp">
+            <p id="para"></p>
+        </div>
+
+
+        <div>
+            <button class="btn" style="background-color: #323232; color: white;" onclick="action(this)">AC</button>
+            <button class="btn" style="background-color: #323232; color: white;" onclick="action(this)">%</button>
+            <button class="btn" style="background-color: #323232; color: white;" onclick="action(this)">DEL</button>
+            <button class="btn" style="background-color: #323232; color: white;" onclick="action(this)">÷</button>
+        </div>
+
+        <div>
+            <button class="btn" onclick="action(this)">7</button>
+            <button class="btn" onclick="action(this)">8</button>
+            <button class="btn" onclick="action(this)">9</button>
+            <button class="btn" style="background-color: #323232; color: white;" onclick="action(this)">×</button>
+        </div>
+
+        <div>
+            <button class="btn" onclick="action(this)">4</button>
+            <button class="btn" onclick="action(this)">5</button>
+            <button class="btn" onclick="action(this)">6</button>
+            <button class="btn" style="background-color: #323232; color: white;" onclick="action(this)">-</button>
+        </div>
+
+        <div>
+            <button class="btn" onclick="action(this)">1</button>
+            <button class="btn" onclick="action(this)">2</button>
+            <button class="btn" onclick="action(this)">3</button>
+            <button class="btn" style="background-color: #323232; color: white;" onclick="action(this)">+</button>
+        </div>
+
+        <div>
+            <button class="btn" onclick="action(this)">00</button>
+            <button class="btn" onclick="action(this)">0</button>
+            <button class="btn" onclick="action(this)">.</button>
+            <button class="eqaul" id="btn" onclick="action(this)">=</button>
+        </div>
+
+    </div>
+
+    <script>
+        // action()
+    </script>
+</body>
+
+</html>
